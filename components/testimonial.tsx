@@ -99,7 +99,7 @@ const Testimonial = () => {
       id="testimonials"
       className="w-full max-w-(--breakpoint-xl) mx-auto py-6 xs:py-12 px-6"
     >
-      <h2 className="mb-8 xs:mb-14 text-4xl md:text-5xl font-bold text-center tracking-tight">
+      <h2 className="mb-8 xs:mb-14 text-4xl md:text-5xl font-semibold text-center tracking-tight">
         Testimonials
       </h2>
       <div className="container w-full mx-auto">
