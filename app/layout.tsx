@@ -9,9 +9,9 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Beautiful Shadcn UI Landing Page",
+  title: "arostark - secure cloud architecture & infrastructure automation",
   description:
-    "A beautiful landing page built with Shadcn UI, Next.js 15, Tailwind CSS, and Shadcn UI Blocks.",
+    "High-end cloud engineering consulting specializing in secure deployments, robust infrastructure automation, and resilient architecture pipelines.",
   keywords: [
     "Shadcn UI Landing Page",
     "Shadcn UI Blocks",

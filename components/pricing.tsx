@@ -6,48 +6,48 @@ import { CircleCheck } from "lucide-react";
 
 const plans = [
   {
-    name: "Starter",
-    price: 19,
+    name: "Cloud Audit",
+    price: 500,
     description:
-      "Get 20 AI-generated portraits with 2 unique styles and filters.",
+      "Best for evaluating existing infrastructure.",
     features: [
-      "5 hours turnaround time",
-      "20 AI portraits",
-      "Choice of 2 styles",
-      "Choice of 2 filters",
-      "2 retouch credits",
+      "25+ point security scan",
+      "30% average cost reduction",
+      "72-hour delivery window",
+      "1-hour priority roadmap review",
+      
     ],
-    buttonText: "Get 20 portraits in 5 hours",
+    buttonText: "Book an Audit",
   },
   {
-    name: "Advanced",
-    price: 29,
+    name: "Secure MVP",
+    price: 2500,
     isRecommended: true,
     description:
-      "Get 50 AI-generated portraits with 5 unique styles and filters.",
+      "Best for startups launching new platforms.",
     features: [
-      "3 hours turnaround time",
-      "50 AI portraits",
-      "Choice of 5 styles",
-      "Choice of 5 filters",
-      "5 retouch credits",
+      "100% Terraform automation",
+      "3-tier network isolation",
+      "1-click CI/CD deployment pipeline",
+      "Zero-Trust IAM security setup",
+      
     ],
-    buttonText: "Get 50 portraits in 3 hours",
+    buttonText: "Deploy Your MVP",
     isPopular: true,
   },
   {
-    name: "Premium",
-    price: 49,
+    name: "Enterprise Guard",
+    price: 4000,
     description:
-      "Get 100 AI-generated portraits with 10 unique styles and filters.",
+      "Best for ongoing scaling & defense.",
     features: [
-      "1-hour turnaround time",
-      "100 AI portraits",
-      "Choice of 10 styles",
-      "Choice of 10 filters",
-      "10 retouch credits",
+      "24/7/365 active log monitoring",
+      "< 15 minute incident response",
+      "Weekly automated patch cycles",
+      "1 dedicated Slack support channel",
+      
     ],
-    buttonText: "Get 100 portraits in 1 hour",
+    buttonText: "Request Retainer",
   },
 ];
 

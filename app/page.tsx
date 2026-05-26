@@ -11,10 +11,10 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <Features />
-      <FAQ />
+      <Features /> {/* This will be our Services section */}
       <Testimonial />
       <Pricing />
+      <FAQ />
       <Footer />
     </>
   );
