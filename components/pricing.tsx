@@ -9,12 +9,12 @@ const plans = [
     name: "Cloud Audit",
     price: 500,
     description:
-      "Best for evaluating existing infrastructure.",
+      "Infrastructure review for performance, security, and reliability.",
     features: [
-      "25+ point security scan",
-      "30% average cost reduction",
-      "72-hour delivery window",
-      "1-hour priority roadmap review",
+      "25+ infrastructure security checks",
+      "48-hour audit delivery",
+      "Up to 30% cost optimization insights",
+      "1-hour architecture review session",
       
     ],
     buttonText: "Book an Audit",
@@ -22,14 +22,13 @@ const plans = [
   {
     name: "Secure MVP",
     price: 2500,
-    isRecommended: true,
     description:
-      "Best for startups launching new platforms.",
+      "Production-ready cloud deployment for startups and modern platforms.",
     features: [
-      "100% Terraform automation",
-      "3-tier network isolation",
-      "1-click CI/CD deployment pipeline",
-      "Zero-Trust IAM security setup",
+      "72-hour deployment turnaround",
+      "3-tier isolated cloud architecture",
+      "Automated CI/CD deployment pipeline",
+      "Zero-Trust IAM security configuration",
       
     ],
     buttonText: "Deploy Your MVP",
@@ -37,17 +36,18 @@ const plans = [
   },
   {
     name: "Enterprise Guard",
-    price: 4000,
+    price: 1000,
+    billingCycle: "/mo",
     description:
-      "Best for ongoing scaling & defense.",
+      "Ongoing infrastructure support, monitoring, and optimization.",
     features: [
-      "24/7/365 active log monitoring",
-      "< 15 minute incident response",
-      "Weekly automated patch cycles",
-      "1 dedicated Slack support channel",
+      "99.9% uptime monitoring setup",
+      "Weekly maintenance & patch reviews",
+      "Monthly infrastructure optimization",
+      "Priority technical support response",
       
     ],
-    buttonText: "Request Retainer",
+    buttonText: "Request Support",
   },
 ];
 
@@ -78,7 +78,12 @@ const Pricing = () => {
               </Badge>
             )}
             <h3 className="text-lg font-medium">{plan.name}</h3>
-            <p className="mt-2 text-4xl font-bold">${plan.price}</p>
+            <p className="mt-2 text-4xl font-bold"> 
+              ${plan.price}
+              {plan.billingCycle && (
+                <span className="text-base font-normal text-muted-foreground">{plan.billingCycle}</span>
+            )}
+            </p>
             <p className="mt-4 font-medium text-muted-foreground">
               {plan.description}
             </p>

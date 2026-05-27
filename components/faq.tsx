@@ -9,34 +9,34 @@ import { PlusIcon } from "lucide-react";
 
 const faq = [
   {
-    question: "What is your return policy?",
+    question: "What kind of businesses do you work with?",
     answer:
-      "You can return unused items in their original packaging within 30 days for a refund or exchange. Contact support for assistance.",
+      "Primarily startups and small teams that need production-ready cloud infrastructure fast. If you're launching a platform, scaling an existing system, or need your security tightened, we're a fit.",
   },
   {
-    question: "How do I track my order?",
+    question: "How long does a typical project take?",
     answer:
-      "Track your order using the link provided in your confirmation email, or log into your account to view tracking details.",
+      "A Cloud Audit is delivered within 48 hours. An MVP deployment typically takes 3–5 days depending on scope. Managed Infrastructure is ongoing from the first month.",
   },
   {
-    question: "Do you ship internationally?",
+    question: "Do you work with AWS specifically, or other cloud providers?",
     answer:
-      "Yes, we ship worldwide. Shipping fees and delivery times vary by location, and customs duties may apply for some countries.",
+      "AWS is our primary focus. If you're on another provider like GCP or Azure, reach out and we'll discuss what's possible.",
   },
   {
-    question: "What payment methods do you accept?",
+    question: "What happens after I book a call?",
     answer:
-      "We accept Visa, MasterCard, American Express, PayPal, Apple Pay, and Google Pay, ensuring secure payment options for all customers.",
+      "We discuss your current setup, what you're trying to build or fix, and which service fits best. No pressure — if it's not a match, we'll tell you.",
   },
   {
-    question: "What if I receive a damaged item?",
+    question: "Do I need technical knowledge to work with you?",
     answer:
-      "Please contact our support team within 48 hours of delivery with photos of the damaged item. We’ll arrange a replacement or refund.",
+      "No. We handle the infrastructure side end to end. You just need to know what you're building and what problems you're facing.",
   },
   {
-    question: "How can I contact customer support?",
+    question: "How do I get started?",
     answer:
-      "You can reach our support team via email at support@example.com or through the live chat on our website. We're available 24/7 to assist you.",
+      "Hit 'Book a Call' anywhere on the site. We'll take it from there.",
   },
 ];
 

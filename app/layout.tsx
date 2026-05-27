@@ -11,82 +11,53 @@ const geistSans = Geist({
 export const metadata: Metadata = {
   title: "arostark - secure cloud architecture & infrastructure automation",
   description:
-    "High-end cloud engineering consulting specializing in secure deployments, robust infrastructure automation, and resilient architecture pipelines.",
+    "Arostark helps startups and businesses deploy, secure, and manage cloud systems — fast, lean, and production-ready.",
   keywords: [
-    "Shadcn UI Landing Page",
-    "Shadcn UI Blocks",
-    "Shadcn UI",
-    "Landing Page",
-    "Tailwind CSS Landing Page",
-    "Beautiful Shadcn UI Landing Page",
-    "Next.js 15 Landing Page",
-    "Simple Landing Page",
-    "Landing Page Template",
-    "Landing Page Design",
+    "cloud infrastructure",
+    "AWS consulting",
+    "security hardening",
+    "cloud deployment",
+    "Terraform",
+    "CI/CD pipeline",
+    "infrastructure as code",
+    "cloud security",
+    "startup infrastructure",
+    "DevOps consulting",
   ],
   openGraph: {
     type: "website",
-    siteName: "Shadcn Landing Page",
+    siteName: "Arostark",
     locale: "en_US",
-    url: "https://shadcn-landing-page.vercel.app",
-    title: "Shadcn Landing Page",
+    url: "https://arostark.com",
+    title: "arostark - secure cloud architecture & infrastructure automation",
     description:
-      "A beautiful landing page built with Shadcn UI, Next.js 15, Tailwind CSS, and Shadcn UI Blocks.",
+      "Arostark helps startups and businesses deploy, secure, and manage cloud systems — fast, lean, and production-ready.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/arostark-icon.png",
         width: 1200,
         height: 630,
-        alt: "Shadcn UI Landing Page Preview",
+        alt: "Arostark - Secure Cloud Infrastructure",
       },
     ],
   },
   authors: [
     {
-      name: "Akash Moradiya",
-      url: "https://shadcnui-blocks.com",
+      name: "Aaron Jehu",
+      url: "https://arostark.com",
     },
   ],
-  creator: "Akash Moradiya",
+  creator: "Aaron Jehu",
   icons: [
     {
       rel: "icon",
-      url: "/favicon.ico",
-    },
-    {
-      rel: "apple-touch-icon",
-      url: "/apple-touch-icon.png",
-    },
-    {
-      rel: "icon",
-      type: "image/png",
-      url: "/favicon-32x32.png",
-      sizes: "32x32",
-    },
-    {
-      rel: "icon",
-      type: "image/png",
-      url: "/favicon-16x16.png",
-      sizes: "16x16",
-    },
-    {
-      rel: "icon",
-      type: "image/png",
-      url: "/android-chrome-192x192.png",
-      sizes: "192x192",
-    },
-    {
-      rel: "icon",
-      type: "image/png",
-      url: "/android-chrome-512x512.png",
-      sizes: "512x512",
+      url: "/arostark-icon.png",
     },
   ],
   robots: {
     index: true,
     follow: true,
   },
-  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({
