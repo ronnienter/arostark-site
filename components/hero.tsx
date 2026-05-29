@@ -81,8 +81,8 @@ const Hero = () => {
             <Button size="lg" className="w-full sm:w-auto rounded-full text-base">
               Book a Call <ArrowUpRight className="h-5! w-5!" />
             </Button>
-            <Button variant="outline" size="lg" className="w-full sm:w-auto rounded-full text-base shadow-none">
-              View Services
+            <Button variant="outline" size="lg" asChild className="w-full sm:w-auto rounded-full text-base shadow-none">
+              <a href="#services">View Services</a>
             </Button>
           </div>
         </div>
